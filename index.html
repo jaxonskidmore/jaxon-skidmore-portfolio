@@ -1,13 +1,126 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-    <h1 class= "text-9x1 font-black" >Hello World!</h1>
-</body>
+<html> 
+    <head>   
+        <title> Jaxon Skidmore's Portfolio </title> 
+        <style> 
+        /* embedded style sheet, page setup and layout setup*/
+            body, html {  
+                width: 100%;   
+                height: 100%;   
+                margin: 0; 
+            }
+    
+            .container {   
+                width: 100%;   
+                height: 100%; 
+            } 
+            .leftpane {
+                width: 25%;
+                height: 40%;
+                float: left;
+                background-color: lightcyan;
+                border-collapse: collapse;
+                text-align: center; 
+            }
+            
+            .middlepane {
+                width: 50%;
+                height: 40%;
+                float: left;
+                background-color: lightcyan;
+                border-collapse: collapse;
+                text-align: center; 
+            }
+            /* made the middlepane larger due to it being current position */
+            .rightpane {
+                width: 25%;   
+                height: 40%;   
+                position: relative;  
+                float: right;
+                background-color: lightcyan;
+                border-collapse: collapse;    
+                text-align: center; 
+            }
+    
+            .toppane {   
+                width: 100%;
+                height: 300px;
+                border-collapse:collapse;   
+                background-color: cornsilk;   
+                text-align: center; 
+            }
+            .footer {
+                background-color:cornsilk;
+                width: 100%;
+                height: 300px;
+                border-collapse:collapse;   
+                background-color: cornsilk;   
+                text-align: center; 
+            }
+
+            .image{
+                position: absolute;
+                right:300px;
+            }
+    
+        </style>
+    
+    </head>
+     <body>  
+        <div class="container">   
+            <div class="toppane">
+                 <h1>Jaxon Skidmore's Portfolio</h1>
+                 <h2>School and Work Projects</h2>
+                 <div>
+                 <img src="https://media-exp1.licdn.com/dms/image/C5603AQGrb941sV8b8g/profile-displayphoto-shrink_400_400/0/1553277891085?e=1637798400&v=beta&t=V_keNDRV_fZ193-v9RwG0FQTn9EerqqemKtX60bQR_U" 
+                 alt="Headshot"
+                 width="100"
+                 height="100"
+                 style="height: 40%";
+                 position: absolute;
+                 right:300px;>    
+                </div>
+                <div>
+                    <h1> About Me: </h1>
+                    <h3>
+                        Hello, my name is Jaxon Skidmore! Welcome to my personal portfolio. 
+                        I am currently a senior at Chapman University studying Data Analytics with a Business minor. 
+                        In this portfolio, you will get a background of my work experience, and my current position as a Business Operations Analyst.
+                        I grew up in San Mateo, CA, lived with my parents and little brother till moving to University.
+                    </h3>
+                </div>
+        </div>    
+        <div class="leftpane">
+            <h2>Customer Successs Data Analytics Intern</h2>
+            <h3>
+                <h3>Split Software, Redwood City, CA 94404</h3>
+                <li>June 2020 - August 2020</li>  
+                <li>edited old datasets and created new datasets in Salesforce</li>  
+                <li>organized and cleaned data in excel</li>   
+                <li>switched application platforms from Salesforce to Strikedeck, transferred mass amounts of data</li>
+            </h3>
+        </div>   
+        <div class="middlepane">
+            <h2>Business Operations Analyst Intern</h2>
+            <h3>
+                <h3>Navy Federal Credit Union, Vienna, VA 22180</h3>
+                <li>May 2021 - Current</li>  
+                <li>created automated report dashboards using Tableau and Power BI</li>  
+                <li>utilized SQL Teradata to run and make queries</li>   
+                <li>edited a 2000 line python code to run with functions and create a monthly report</li>
+            </h3>
+        </div>   
+        <div class="rightpane">
+            <h2>NBA Player Analysis Project</h2>
+            <h3>
+                <h3>Chapman University school project</h3>
+                <li>May 2021</li>  
+                <li>used R Studio to analyze a large NBA dataset from Kaggle.com</li>  
+                <li>implemented a clustering model to build a tier list of NBA players</li>   
+                <li>used K means and linear regression models</li>
+            </h3>
+        </div> 
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/jaxon-skidmore-/"> Jaxon Skidmore LinkedIn</a>
+        </div>    
+    </body> 
 </html>
-
-
